@@ -1,4 +1,6 @@
-age = 20
+nombre = int(input("Donne un nombre : "))
 
-if age >= 18:
-    print("Tu es majeur.")
+if nombre % 2 == 0:
+    print("pair")
+else:
+    print("impair")
